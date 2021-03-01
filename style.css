@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    text-align: center;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    background: linear-gradient(#05fff7 0%, #d419ab 100%);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Cinzel Decorative', cursive;
+    color: aqua;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+    color: darkred;
+}
+#bio
+{
+padding: 50px;
+font-size: 42px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+p{
+max-width: 450px;
+margin: 25px auto;
+font-size: 17px;
+}
+.menu{
+list-style: none;
+top: 10px;
+    position: absolute;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links
+{
+float: left;
+color: white;
+font-size: 20px;
+font-family: fantasy;
+padding: 9px;
+}
+.links:hover{
+background-color: blue;
+}
